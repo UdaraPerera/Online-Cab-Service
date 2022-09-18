@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+	min-height:100vh;
+	background-color:#fff;
+}
+
+h3{
+	font-size:18px;
+	font-weight:400;
+	text-decoration:none;
+	margin-top:6px;
+}
+
+p{
+	font-size:14px;
+}
+
+nav{
+	background-color:#395B64;
+	height:50px;
+}
+
+.nav-link{
+	color:#fff;
+}
+.nav-link:hover{
+	color:#FFEA11;
+}
+
+.nav-link:visited{
+	color:#fff;
+}
+
+.dropdown-menu{
+	background-color:#395B64;
+}
+
+.dropdown-item{
+	color:#fff;
+}
+
+.dropdown-item:active{
+	background-color:#395B64;
+}
+
+.navbar-brand{
+	font-size:18px;
+	font-style:italic;
+	font-weight:800;
+	text-decoration:none;
+	margin-left:20px;
+	margin-right:15px;
+}
+
+.card{
+  width:65vh;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50% ,-50%);	
+}
+
+.card-login{
+  width:65vh;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50% ,-50%);	
+}
+
+.card-header{
+    background-color:#395B64;
+}
+
+.card-body{
+	background-color:#E7F6F2;
+	font-weight:400;
+}
+
+.forgot{
+	float:right;
+}
+
+.form-group{
+	font-size:15px;
+	margin-left:10px;
+}
+
+.btn-login{
+	background-color:#395B64;
+	color:#fff;
+	border:none;
+	border-radius:8px;
+	padding:10px 15px;
+	font-size:15px;
+}
+
+.btn-register{
+	background-color:#395B64;
+	color:#fff;
+	border:none;
+	border-radius:8px;
+	padding:10px 15px;
+	font-size:14px;
+}
+
+.btn-search{
+	background-color:#E7F6F2;
+	color:#000;
+	border:none;
+	border-radius:8px;
+	padding:3px 15px;
+	margin-top:15px;
+}
+
+.btn-outline-success{
+	background-color:#E7F6F2;
+	color:#000;
+	float:right;
+	border-radius:8px;
+	padding:3px 15px;
+	margin-top:15px;
+}
+
+#search-bar{
+	height:30px;
+	width:350px;
+	margin-top:15px;
+	
+}
+
+.btn-add{
+	background-color:#395B64;
+	color:#fff;
+	border:none;
+	border-radius:8px;
+	padding:5px 15px;
+	font-size:14px;
+}
+
+label{
+	margin-left:11px;
+}
+
+input[type=text],[type=email] ,[type=password]{
+	width:58vh;
+	
+}
+
+select{
+	width:58vh;
+	border:2px solid #DAEAF1;
+}
+
+textarea{
+	width:58vh;
+	border:2px solid #DAEAF1;
+}
+
+#gender , #branch , #category , #seats , #city , #pickup , #destination{
+	width:435px;
+	height:40px;
+	border-radius:6px;
+}
+
+.side-bar{
+	background-color:#54BAB9;
+	width:300px;
+	height:100vh;
+	position:fixed;
+	top:0;
+	left:0;
+	overflow-y:auto;
+}
+
+thead tr {
+	background-color:#395B64;
+	color:#fff;
+}
+
+tbody tr:nth-child(odd){
+	background-color:#E7F6F2;
+}
+
+
+
+
+
+
+
+
+
+
